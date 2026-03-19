@@ -1,16 +1,44 @@
-# React + Vite
+AttackLens AI
+AI Powered Cloud and Identity Attack Path Prioritization Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Live Demo
+https://your-vercel-link.vercel.app
 
-Currently, two official plugins are available:
+Overview
+AttackLens AI is a cybersecurity analytics dashboard designed to simulate real world security operations. It helps identify vulnerabilities, analyze attack paths, and prioritize risks based on severity and impact.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+The dashboard provides clear visibility into critical threats and helps security teams focus on remediation actions that reduce risk effectively.
 
-## React Compiler
+Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Risk based prioritization of vulnerabilities using risk scoring
+Visualization of threat distribution across severity levels
+Identification of critical and high risk findings
+Attack path analysis to simulate real world security scenarios
+Priority remediation plan showing what should be fixed first
+Structured findings including asset details and remediation steps
 
-## Expanding the ESLint configuration
+Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+React JS
+JavaScript
+Recharts for data visualization
+CSS for styling
+
+Use Case
+
+This project simulates a cloud security environment where vulnerabilities can lead to identity compromise, privilege escalation, and full administrative access.
+
+AttackLens AI helps visualize this attack chain and prioritize remediation based on actual risk instead of volume of findings.
+
+Future Improvements
+
+Add search and filtering capabilities
+Integrate real time vulnerability data
+Enhance dashboard with additional analytics
+Deploy with advanced monitoring features
+
+Author
+
+Sravani Pachamantla
+Cybersecurity Analyst focused on cloud security and vulnerability management
