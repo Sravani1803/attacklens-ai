@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  background: #525e66;
+  color: #e7e9ec;
+  font-family: "Inter", "Segoe UI",, sans-serif;
+}
+/* Card base */
+.card {
+  background: #ffffff;
+  border-radius: 12px;
+  border: 1px solid #e5e7eb;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+@keyframes pulseRed {
+  0% {
+    box-shadow: 0 0 12px rgba(238, 15, 15, 0.7);
+  }
+  50% {
+    box-shadow: 0 0 28px rgb(45, 3, 3);
+  }
+  100% {
+    box-shadow: 0 0 12px rgba(255, 46, 46, 0.7);
+  }
+}
