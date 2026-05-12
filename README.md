@@ -2,9 +2,6 @@
 
 AI Powered Cloud and Identity Attack Path Prioritization Dashboard
 
-## Live Demo
-https://your-vercel-link.vercel.app
-
 ## Overview
 AttackLens AI is a cybersecurity analytics dashboard designed to simulate real world security operations. It helps identify vulnerabilities, analyze attack paths, and prioritize risks based on severity and impact.
 
